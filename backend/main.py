@@ -8,7 +8,7 @@ import time
 #from fastapi_utils.tasks import repeat_every
 
 app = FastAPI()
-origins = ['http://localhost:3000','http://localhost:4567']
+origins = ['http://localhost:3000','http://localhost:4567','http://13.48.131.121/']
 names = ['misli','888sport','betway','nesine','unibet','bet10','marathon','tuttur']
 
 app.add_middleware(
